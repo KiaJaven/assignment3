@@ -1,0 +1,167 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    flex-basis: 25%;
+}
+
+.logo img{
+    width: 60%;
+    height: 40%;
+}
+
+.menu{
+    flex-basis: 60%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 25px;
+    line-height: 25px;
+    color: white;
+
+}
+
+.pic{
+    flex-basis: 15%;
+}
+
+.pic img{
+    width: 50%;
+    height: 30%;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.body{
+    display: flex;
+    color: white;
+}
+
+.wri{
+    flex-basis: 45%;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.wri h1{
+    font-size: 25px;
+}
+
+.wri p{
+    font-size: 22px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.button1{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.button1 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.button2{
+    flex-basis: 50%;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.button2 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.button1 a, .button2 a{
+    background-color: yellow;
+}
+
+.pic2{
+    flex-basis: 55%;
+    padding-left: 20px;
+}
+
+.pic2 img{
+    width: 80%;
+    height: 100%;
+}
+
+.serv{
+    display: flex;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.serv1{
+    flex-basis: 33%;
+    flex-direction: column;
+    padding-right: 20px;
+    text-align: center;
+    background-color: black;
+}
+.serv1 img{
+    height: 30%;
+    width: 150px;
+}
+
+.serv2{
+    flex-basis: 33%;
+    flex-direction: column;
+    padding-right: 20px;
+    text-align: center;
+    background-color: black;
+}
+.serv2 img{
+    height: 30%;
+    width: 150px;
+}
+
+.serv3{
+    flex-basis: 33%;
+    flex-direction: column;
+    padding-right: 20px;
+    text-align: center;
+    background-color: black;
+}
+.serv3 img{
+    height: 30%;
+    width: 150px;
+}
+
+.serv1 h1, .serv2 h1, .serv3 h1{
+    font-size: 25px;
+}
+
+.serv1 p, .serv2 p, .serv3 p{
+    font-size: 22px;
+}
+
+.serv1 a, .serv2 a, .serv3 a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: yellow;
+    padding-top: 15px;
+    color: black;
+}
